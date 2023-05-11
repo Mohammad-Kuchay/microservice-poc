@@ -16,7 +16,7 @@ import { Result } from "../../../domain/utilities/result";
 import { validationMiddleware } from "../../../infra/middleware/validator.middleware";
 import { TYPES } from "../../constants/types";
 import { BaseController } from "../base/base.controller";
-import { PostDTO, PostUpdateDTO } from "./dtos/user.dto";
+import { PostDTO, PostUpdateDTO } from "./dtos/post.dto";
 
 @controller("/posts")
 export class UserController extends BaseController {
